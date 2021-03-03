@@ -1,0 +1,466 @@
+body {
+  margin: 0 auto;
+  padding: 0px 0 0;
+  width:100%;
+  /*font-family: "M PLUS Rounded 1c", sans-serif;*/
+  font-family:Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+  border-top:8px solid #6cc6c4;
+  background-color: #f6f6f68e;
+}
+
+.wrapper{
+  margin:0 auto;
+  max-width:920px;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
+}
+.header-wrapper{
+  font-weight: 300;
+  position:relative;/*アンカー*/
+  height:200px;
+  padding:0 0px 0 0px;
+  width:100%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.header-left{
+}
+.logo{
+  width:260px;
+  height:45px;
+  margin:50px 0 30px 0;
+}
+.header-right{
+  width:220px;
+  color:#515151;
+  
+}
+.header h1{
+  font-size:10px;
+  margin-top:12px;
+  margin-left:3px;
+  margin-bottom:13px;
+  font-weight: lighter;
+}
+.phone{
+  margin-right:10px;
+}
+.header h2{
+  margin-bottom:10px;
+  font-weight: bolder;
+}
+.header h3{
+  font-size:10px;
+  border:1px solid #D6D6D6;
+  padding:5px 0;
+  text-align:center;
+  margin:0;
+  font-weight: lighter;
+}
+.header-right span{
+  color:firebrick;
+}
+
+
+.navi{
+  border:1px solid #6cc6c4;
+  height:70px;
+  width:100%;
+  position:absolute;
+  bottom:0px;
+  left:auto;
+  border-radius:6px;
+  background-image: linear-gradient(rgb(156,227,225) 0%,
+    rgb(108,198,196) 100%);
+}
+.navi ul{
+  list-style:none;
+  margin-bottom: 0;
+  padding:0;
+  position:absolute;
+  bottom:0px;
+  width:100%;
+}
+.navi ul li{
+  float:left;
+  display:block;
+  margin:0;
+  padding:0;
+  width:182px;
+  height:70px;
+  border-left:1px solid rgb(156,227,225);
+  border-right:1px solid #71c9c7;
+  text-align: center;
+  
+}
+.navi ul li a{
+  text-decoration: none;
+  color:white;
+  display:inline-block;
+  font-weight:bold;
+}
+.first{
+  border-radius:6px 0 0 6px;
+}
+.last{
+  border-radius:0 6px 6px 0;
+}
+.titleJa{
+  font-size:14px;
+  display:inline-block;
+  width:100%;
+  text-align:center;
+  padding-top:17px;
+  
+}
+.titleEn{
+  font-size:10px;
+  display:block;
+  text-align:center;
+  width:100%;
+  
+}
+
+
+#contents-wrapper{
+  flex: 1;
+}
+.contents{
+  display:flex;
+}
+.menu{
+  width:260px;
+  margin-right: 20px;
+}
+.main-contents{
+  display: flex;
+}
+.menuTitle{
+  height:40px;
+  line-height:40px;
+  background-image: linear-gradient(
+    rgb(156,227,225)0%,rgb(108,198,196)100%
+  );
+  color:white;
+  font-size:16px;
+  padding-left:15px;
+  border:1px solid #6cc6c4;
+  border-radius:6px 6px 0 0;
+  margin-top:8px;
+  margin-bottom:0;
+}
+.menuList01,.menuList02{
+  border:1px solid #6cc6c4;
+  margin-bottom:20px;
+}
+.menu ul{
+  padding: 10px 10px 20px 10px;
+  margin: -5px 0 0 0;
+  background-color: white;
+}
+.menu ul li{
+  list-style: none;
+  padding:8px 0 10px 5px;
+  border-bottom:1px solid #6cc6c4;
+  width:240px;
+}
+.menu ul li a{
+  text-decoration:none;
+  color:#595959;
+  font-size:14.5px;
+  font-weight:bold;
+}
+.menuList01 ul li a:hover{
+  color:#6cc6c4;
+}
+.menuList02 ul li a:hover{
+  color:#AEC24C;
+}
+
+.square{
+  color:rgb(118, 199, 198);
+  font-size:10px;
+  margin-right:10px;
+}
+
+#main{
+  width:70%;
+  float:right;
+}
+.mainImage{
+  margin-top:8px;
+  margin-bottom: 7px;
+  width:100%;
+}
+.image1{
+  width:100%;
+}
+.pageTitle{
+  background-image: linear-gradient(
+    rgb(156,227,225)0%,rgb(108,198,196)100%
+  );
+  color:white;
+  font-size:19.5px;
+  height:60px;
+  padding:20px 0 20px 20px;
+  border:1px solid #6cc6c4;
+  border-radius:6px 6px 0 0;
+  margin-top:8px;
+  margin-bottom:0;
+  line-height:70px;
+}
+.inner1,.inner2{
+  background-color:white;
+  padding:20px;
+}
+.inner3{
+  background-color: white;
+  padding:20px 20px 10px 20px;
+}
+.inner4{
+  background-color: white;
+  padding:0px 20px 20px 20px;
+}
+.inner4 .subMidashi{
+  border-bottom:3px solid #71c9c7;
+  color:#515151;
+  font-size:16px;
+  height:40px;
+  padding-bottom:13px;
+  margin:0;
+}
+.subMidashi{
+  border-bottom:3px solid #71c9c7;
+  color:#515151;
+  font-size:16px;
+  height:50px;
+  line-height: 50px;
+  margin:0;
+}
+#main .businessItem h4{
+  color:#6cc6c4;
+  font-size:15.5px;
+  margin:16px 0 17px 0;
+}
+#main .businessItem p{
+  font-size:13px;
+  color:#515151;
+  line-height: 180%;
+}
+.table{
+  color:#515151;
+  font-size:13px;
+  line-height: 180%;
+}
+.table table{
+border-top:1px solid #999;
+border-left:1px solid #999;
+width:100%;
+border-spacing: 0;
+margin:20px 0 0 0;
+}
+.table table th{
+  background-color: #d1d1d1;
+  text-align: center;
+  padding:10px;
+  border-bottom:1px solid #999;
+  border-right:1px solid #999;
+}
+.table table td{
+  text-align: center;
+  padding:10px;
+  border-bottom:1px solid #999;
+  border-right:1px solid #999;
+}
+.textbox{
+  width:580px;
+  margin:0 10px;
+}
+.textbox2{
+  padding:10 0px
+}
+.textbox h5{
+  color:#6cc6c4;
+  font-size:15.5px;
+  margin:30px 0 20px 0;
+}
+
+.pan{
+  height:10px;
+}
+.panList{
+  height:15px;
+  line-height: 15px;
+  font-size:7px;
+  padding:5px;
+  margin-top:12px;
+  color:#515151;
+}
+.panList a{
+  color:#4d82c4;
+}
+
+.news{
+  font-size:13px;
+  color:#515151;
+  margin-top:10px;
+}
+.news dl{
+  margin:0 0 15px;
+  padding:0 10px 10px;
+}
+.news dl dt{
+  float:left;
+  padding:10px 0;
+  font-weight:bold;
+  line-height: 150%;
+  margin:0;
+}
+.news dl dd{
+  margin:0;
+  padding:10px 10px 10px 143px;
+  line-height: 150%;
+  border-bottom:1px dotted #cccccc
+}
+
+.doctorItem{
+  margin-bottom:30px;
+  display:flex;
+  flex-wrap: wrap;
+}
+.doctorPhoto{
+  width:200px;
+  margin:0;
+}
+.doctorName{
+background-color: #6cc6c4;
+color:white;
+text-align:center;
+font-size:13px;
+height:23px;
+line-height: 23px;
+}
+.doctorProfile{
+  
+  width:50%;
+  margin:20px;
+}
+.doctorProfile h5,.doctorMessage h5,.accessText h5{
+  color:#6cc6c4;
+  font-size:15.5px;
+  margin:15px 0;
+}
+.doctorProfile p,.doctorMessage p,.accessText p{
+  line-height: 180%;
+  color: #515151;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.doctorMessage{
+  width:100%;
+}
+.staffName{
+  font-size:13px;
+  color:#515151;
+  line-height:180%;
+}
+.googleMap{
+  margin-top:15px;
+}
+.big a{
+  font-size:11px;
+  color:#0000ff;
+  text-decoration: none;
+  text-decoration: underline;
+}
+.subAccess{
+  border-bottom:3px solid #71c9c7;
+  height:5px;
+  margin:5px 0 0 0; 
+}
+.accessItem{
+  display:flex;
+  align-items: flex-start;
+}
+.accessPhoto{
+  margin:8px 0 5px 0;
+  height:210px;
+  display: flex;
+  
+}
+.accessPhoto img{
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+.accessText{
+  margin:20px;
+}
+
+
+
+.footer-wrapper{
+  height:130px
+}
+.footer{
+  margin-top:25px;
+  width:100%;
+  height:123px;
+}
+.footerMenu ul{
+background-color:#6CC6C4;
+display:block;
+display:flex;
+padding:0 0 0 15px;
+margin:0;
+border-radius: 6px;
+}
+.footerMenu li{
+  list-style: none;
+  color:white;
+  height:30px;
+  line-height: 30px;
+  display:block;
+  padding-right:20px;
+}
+.footerMenu li a{
+  color:white;
+  font-size:13px;
+  text-decoration: none;
+}
+.footerMenu li a:hover{
+  text-decoration: underline;
+}
+
+.maru{
+  font-size:14px;
+  margin-right:10px;
+  font-weight:300;
+  text-align:center;
+  display:block;
+}
+.footerAddress{
+  color:#515151;
+  font-size:13px;
+  height:50px;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footerAddress p{
+  text-align:left;
+  margin:0;
+  
+}
+.copylight{
+  color:#515151;
+  font-size:12px;
+  padding:10px 0 3px 0;
+  border-top:2px solid #6cc6c4;
+  text-align:center;
+  margin:0;
+}
+

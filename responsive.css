@@ -1,0 +1,96 @@
+/*iPad向け*//*768px以下の時 今回これ*/
+@media(max-width:768px){
+
+  .wrapper,.header-wrapper{
+    width:100%;
+    height:auto;
+  }
+  .header{
+    height:auto;
+    flex-direction: column;
+  }
+  .header-left{
+    display: flex;
+    justify-content: center;
+  }
+  .logo{
+    margin:0 auto;
+  }
+  .header-right{
+    margin: auto;
+    
+  }
+  .header-right h1{
+    margin:0;
+  }
+  .header-right h2{
+    margin:10px 0; 
+  }
+  .navi {
+    position: static;
+    width: 100%;
+    background: none;
+    border-radius: 0;
+    border: none;
+    margin: 12px 0;
+    height: auto;
+    /* background-color:pink; */
+  display:none;
+}
+
+
+#contentsWrapper, #footer {
+  width: 100%;
+}
+#main {
+  margin-bottom: 3em;
+  padding: 0;
+}
+#main, #menu {
+  float: none;
+  width: 100%;
+  padding: 0 ;
+}
+.mainImage{
+  display:flex;
+  width:100%;
+}
+.image1{
+  width:95%;
+  margin:0 auto;
+}
+.main-contents{
+  /* display: flex; */
+  flex-direction: column-reverse;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*PC向け*//*930px以上の時*/
+/*@media(min-width:930px){ 
+  .wrapper{
+    width:920px;
+    margin:0 auto;
+  }
+}*/
+
+/*タブレット向け*//*376px以上,768px以下の時*/
+@media(min-width:376px)and(max-width:768px){
+  /* 375px = iPhone6 7 8*/
+ 
+}
